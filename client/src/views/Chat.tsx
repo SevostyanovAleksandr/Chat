@@ -2,7 +2,6 @@ import React, { useMemo, useEffect, useState, useCallback } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import dayjs from 'dayjs'
 import _ from 'lodash'
-
 import { Nav } from '../components/Nav'
 import { Sidebar } from '../components/Sidebar'
 import { ChatArea } from '../components/ChatArea'
